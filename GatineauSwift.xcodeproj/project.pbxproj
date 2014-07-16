@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		370A88E1197602EC00E0F16D /* ContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A88E0197602EC00E0F16D /* ContextTests.swift */; };
 		370A88E31976031000E0F16D /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A88E21976031000E0F16D /* AppDelegateTests.swift */; };
+		370A88E619760CA500E0F16D /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A88E519760CA500E0F16D /* ViewControllerTests.swift */; };
 		3724025D1956381A0033D2D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724025C1956381A0033D2D5 /* AppDelegate.swift */; };
 		372402601956381A0033D2D5 /* GatineauSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3724025E1956381A0033D2D5 /* GatineauSwift.xcdatamodeld */; };
 		372402621956381A0033D2D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372402611956381A0033D2D5 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 		370A88E0197602EC00E0F16D /* ContextTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextTests.swift; sourceTree = "<group>"; };
 		370A88E21976031000E0F16D /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
 		370A88E41976092B00E0F16D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		370A88E519760CA500E0F16D /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		372402571956381A0033D2D5 /* GatineauSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GatineauSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3724025B1956381A0033D2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3724025C1956381A0033D2D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				3724027C19563BA10033D2D5 /* Context.swift */,
 				370A88E0197602EC00E0F16D /* ContextTests.swift */,
 				372402611956381A0033D2D5 /* ViewController.swift */,
+				370A88E519760CA500E0F16D /* ViewControllerTests.swift */,
 				372402631956381A0033D2D5 /* Main.storyboard */,
 				372402661956381A0033D2D5 /* Images.xcassets */,
 				3724025E1956381A0033D2D5 /* GatineauSwift.xcdatamodeld */,
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370A88E619760CA500E0F16D /* ViewControllerTests.swift in Sources */,
 				370A88E31976031000E0F16D /* AppDelegateTests.swift in Sources */,
 				372402731956381A0033D2D5 /* GatineauSwiftTests.swift in Sources */,
 				37240281195641A30033D2D5 /* AppDefaultsTests.swift in Sources */,

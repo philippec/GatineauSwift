@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370A88E1197602EC00E0F16D /* ContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A88E0197602EC00E0F16D /* ContextTests.swift */; };
+		370A88E31976031000E0F16D /* AppDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A88E21976031000E0F16D /* AppDelegateTests.swift */; };
 		3724025D1956381A0033D2D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724025C1956381A0033D2D5 /* AppDelegate.swift */; };
 		372402601956381A0033D2D5 /* GatineauSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3724025E1956381A0033D2D5 /* GatineauSwift.xcdatamodeld */; };
 		372402621956381A0033D2D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372402611956381A0033D2D5 /* ViewController.swift */; };
 		372402651956381A0033D2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372402631956381A0033D2D5 /* Main.storyboard */; };
 		372402671956381A0033D2D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372402661956381A0033D2D5 /* Images.xcassets */; };
 		372402731956381A0033D2D5 /* GatineauSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372402721956381A0033D2D5 /* GatineauSwiftTests.swift */; };
+		3724027D19563BA10033D2D5 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724027C19563BA10033D2D5 /* Context.swift */; };
+		3724027F195641540033D2D5 /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724027E195641540033D2D5 /* AppDefaults.swift */; };
+		37240281195641A30033D2D5 /* AppDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37240280195641A30033D2D5 /* AppDefaultsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370A88E0197602EC00E0F16D /* ContextTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextTests.swift; sourceTree = "<group>"; };
+		370A88E21976031000E0F16D /* AppDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateTests.swift; sourceTree = "<group>"; };
+		370A88E41976092B00E0F16D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		372402571956381A0033D2D5 /* GatineauSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GatineauSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3724025B1956381A0033D2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3724025C1956381A0033D2D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,9 @@
 		3724026C1956381A0033D2D5 /* GatineauSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GatineauSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		372402711956381A0033D2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		372402721956381A0033D2D5 /* GatineauSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatineauSwiftTests.swift; sourceTree = "<group>"; };
+		3724027C19563BA10033D2D5 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		3724027E195641540033D2D5 /* AppDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
+		37240280195641A30033D2D5 /* AppDefaultsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefaultsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 		3724024E1956381A0033D2D5 = {
 			isa = PBXGroup;
 			children = (
+				370A88E41976092B00E0F16D /* README.md */,
 				372402591956381A0033D2D5 /* GatineauSwift */,
 				3724026F1956381A0033D2D5 /* GatineauSwiftTests */,
 				372402581956381A0033D2D5 /* Products */,
@@ -77,7 +89,12 @@
 		372402591956381A0033D2D5 /* GatineauSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3724027E195641540033D2D5 /* AppDefaults.swift */,
+				37240280195641A30033D2D5 /* AppDefaultsTests.swift */,
 				3724025C1956381A0033D2D5 /* AppDelegate.swift */,
+				370A88E21976031000E0F16D /* AppDelegateTests.swift */,
+				3724027C19563BA10033D2D5 /* Context.swift */,
+				370A88E0197602EC00E0F16D /* ContextTests.swift */,
 				372402611956381A0033D2D5 /* ViewController.swift */,
 				372402631956381A0033D2D5 /* Main.storyboard */,
 				372402661956381A0033D2D5 /* Images.xcassets */,
@@ -212,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				372402621956381A0033D2D5 /* ViewController.swift in Sources */,
+				3724027F195641540033D2D5 /* AppDefaults.swift in Sources */,
+				3724027D19563BA10033D2D5 /* Context.swift in Sources */,
 				3724025D1956381A0033D2D5 /* AppDelegate.swift in Sources */,
 				372402601956381A0033D2D5 /* GatineauSwift.xcdatamodeld in Sources */,
 			);
@@ -221,7 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370A88E31976031000E0F16D /* AppDelegateTests.swift in Sources */,
 				372402731956381A0033D2D5 /* GatineauSwiftTests.swift in Sources */,
+				37240281195641A30033D2D5 /* AppDefaultsTests.swift in Sources */,
+				370A88E1197602EC00E0F16D /* ContextTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +423,7 @@
 				372402781956381A0033D2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		372402791956381A0033D2D5 /* Build configuration list for PBXNativeTarget "GatineauSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +432,7 @@
 				3724027B1956381A0033D2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
